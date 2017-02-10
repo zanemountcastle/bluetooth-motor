@@ -5,18 +5,18 @@ BLEPeripheral blePeripheral;
 BLEService motorService = BLEService("FFF1");
 
 // switchCharacteristic controls motor's on/off state
-BLECharCharacteristic switchCharacteristic = 
+BLECharCharacteristic switchCharacteristic =
   BLECharCharacteristic("FFF2", BLERead | BLEWrite);
 BLEDescriptor switchDescriptor = BLEDescriptor("2901", "Switch");
 
 // speedCharacteristic controls the motor's speed
-BLEIntCharacteristic speedCharacteristic = 
+BLEIntCharacteristic speedCharacteristic =
   BLEIntCharacteristic("FFF3", BLERead | BLEWrite);
 BLEDescriptor speedDescriptor = BLEDescriptor("2901", "Speed");
 
 void setup() {
   Serial.begin(9600);
-  
+
   pinMode(MOTOR_PIN, OUTPUT);
 
   blePeripheral.setLocalName("Bluetooth Motor");
@@ -24,10 +24,10 @@ void setup() {
   blePeripheral.setAdvertisedServiceUuid(motorService.uuid());
 
   blePeripheral.addAttribute(motorService);
-  
+
   blePeripheral.addAttribute(switchCharacteristic);
   blePeripheral.addAttribute(switchDescriptor);
-  
+
   blePeripheral.addAttribute(speedCharacteristic);
   blePeripheral.addAttribute(speedDescriptor);
 
