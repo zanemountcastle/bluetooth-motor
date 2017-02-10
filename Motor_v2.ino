@@ -46,8 +46,6 @@ void loop() {
 }
 
 void switchCharacteristicWritten(BLECentral& central, BLECharacteristic& characteristic) {
-  Serial.print(F("Characteristic event, written: "));
-
   if (switchCharacteristic.value()) {
     Serial.println(F("Motor on!"));
     digitalWrite(MOTOR_PIN, HIGH);
