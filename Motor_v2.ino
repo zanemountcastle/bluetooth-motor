@@ -2,16 +2,16 @@
 #define MOTOR_PIN 6
 
 BLEPeripheral blePeripheral;
-BLEService motorService = BLEService("5762");
+BLEService motorService = BLEService("FF10");
 
 // switchCharacteristic controls motor's on/off state
 BLECharCharacteristic switchCharacteristic = 
-  BLECharCharacteristic("5763", BLERead | BLEWrite);
+  BLECharCharacteristic("FF11", BLERead | BLEWrite);
 BLEDescriptor switchDescriptor = BLEDescriptor("2901", "Switch");
 
 // speedCharacteristic controls the motor's speed
 BLECharCharacteristic speedCharacteristic = 
-  BLECharCharacteristic("5764", BLERead | BLEWrite);
+  BLECharCharacteristic("FF12", BLERead | BLEWrite);
 BLEDescriptor speedDescriptor = BLEDescriptor("2901", "Speed");
 
 void setup() {
@@ -58,7 +58,6 @@ void switchCharacteristicWritten(BLECentral& central, BLECharacteristic& charact
 }
 
 void speedCharacteristicWritten(BLECentral& central, BLECharacteristic& characteristic) {
-  Serial.println(F("HERE"));
   Serial.print(F("Motor set to: "));
   Serial.println(speedCharacteristic.value());
 
