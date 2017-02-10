@@ -5,7 +5,7 @@ This project is a Bluetooth Low Energy controlled motor built using an Arduino 1
 
 ## Bluetooth LE Service Definition
 
-The Bluetooth LE service is defined as `motorService` (UUID: 0xFFF1") with a on/off switch characteristic and a motor speed characteristic. More specifically, below is the service and characteristics definitions:
+The Bluetooth LE service is defined as `motorService` (UUID: 0xFFF1) with a on/off switch characteristic and a motor speed characteristic. More specifically, below is the service and characteristics definitions:
 
 | Characteristic | UUID    | Properties        | Comment      |
 | -------------- | ------- | ----------------- | ------------ |
