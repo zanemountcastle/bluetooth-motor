@@ -21,4 +21,4 @@ BLEDescriptor speedDescriptor = BLEDescriptor("2901", "Speed");
 
 ## Schematic Diagram
 
-![untitled sketch 2_bb](https://cloud.githubusercontent.com/assets/9016615/22813960/c2eb107e-ef1d-11e6-8c54-76adbcb020f0.png)
+![untitled sketch 2_bb](https://cloud.githubusercontent.com/assets/9016615/22814144/1f327ef2-ef1f-11e6-97af-72896349eefc.png)
