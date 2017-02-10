@@ -21,4 +21,4 @@ BLEDescriptor speedDescriptor = BLEDescriptor("2901", "Speed");
 
 ## Schematic Diagram
 
-![bluetooth motor](https://cloud.githubusercontent.com/assets/9016615/22813916/70d81c5a-ef1d-11e6-80db-54e89fb7c18f.jpg)
+![untitled sketch 2_bb](https://cloud.githubusercontent.com/assets/9016615/22813960/c2eb107e-ef1d-11e6-8c54-76adbcb020f0.png)
