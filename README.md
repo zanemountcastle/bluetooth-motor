@@ -10,7 +10,7 @@ The Bluetooth LE service is defined as `motorService` (UUID: 0xFFF1") with a on/
 | Characteristic | UUID    | Properties        | Comment      |
 | -------------- | ------- | ----------------- | ------------ |
 | Switch         | 0xFFF2  | BLERead, BLEWrite | 0x01 or 0x00 |
-| Speeed         | 0xFFF3  | BLERead, BLEWrite | 0x00 to 0xFF |
+| Speed         | 0xFFF3  | BLERead, BLEWrite | 0x00 to 0xFF |
 
 ## Components
 - Arduino 101
