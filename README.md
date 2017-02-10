@@ -19,6 +19,15 @@ BLECharCharacteristic speedCharacteristic = BLECharCharacteristic("FF12", BLERea
 BLEDescriptor speedDescriptor = BLEDescriptor("2901", "Speed");
 ```
 
-## Schematic Diagram
+## Components
+- Arduino 101
+- Half-size Breadboard
+- 6V DC Motor
+- PN2222 Transistor
+- 1N4001 Diode
 
-![untitled sketch 2_bb](https://cloud.githubusercontent.com/assets/9016615/22814144/1f327ef2-ef1f-11e6-97af-72896349eefc.png)
+## Fritzing Diagram and Photos of Hardware
+
+![untitled sketch 2_bb](https://cloud.githubusercontent.com/assets/9016615/22814413/5a8dcda6-ef21-11e6-881d-e2da64a873b3.png)
+
+![img_2881](https://cloud.githubusercontent.com/assets/9016615/22814537/6ab50bb2-ef22-11e6-9fb6-5d339dc0393e.JPG)
