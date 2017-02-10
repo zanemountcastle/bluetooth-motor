@@ -11,14 +11,14 @@ The Bluetooth LE service is defined as `motorService` with a on/off switch chara
 BLEService motorService = BLEService("FF10");
 
 // switchCharacteristic controls motor's on/off state
-BLECharCharacteristic switchCharacteristic =
-  BLECharCharacteristic("FF11", BLERead | BLEWrite);
+BLECharCharacteristic switchCharacteristic = BLECharCharacteristic("FF11", BLERead | BLEWrite);
 BLEDescriptor switchDescriptor = BLEDescriptor("2901", "Switch");
 
 // speedCharacteristic controls the motor's speed
-BLECharCharacteristic speedCharacteristic =
-  BLECharCharacteristic("FF12", BLERead | BLEWrite);
+BLECharCharacteristic speedCharacteristic = BLECharCharacteristic("FF12", BLERead | BLEWrite);
 BLEDescriptor speedDescriptor = BLEDescriptor("2901", "Speed");
 ```
 
 ## Schematic Diagram
+
+![bluetooth motor](https://cloud.githubusercontent.com/assets/9016615/22813916/70d81c5a-ef1d-11e6-80db-54e89fb7c18f.jpg)
