@@ -5,20 +5,22 @@ This project is a Bluetooth Low Energy controlled motor built using an Arduino 1
 
 ## Bluetooth LE Service Definition
 
-The Bluetooth LE service is defined as `motorService` with a on/off switch characteristic and a motor speed characteristic. More specifically, below is the service and characteristics definitions:
+The Bluetooth LE service is defined as `motorService` (UUID: 0xFFF1) with a on/off switch characteristic and a motor speed characteristic. More specifically, below is the service and characteristics definitions:
 
-```
-BLEService motorService = BLEService("FF10");
+| Characteristic | UUID    | Properties        | Comment      |
+| -------------- | ------- | ----------------- | ------------ |
+| Switch         | 0xFFF2  | BLERead, BLEWrite | 0x01 or 0x00 |
+| Speed         | 0xFFF3  | BLERead, BLEWrite | 0x00 to 0xFF |
 
-// switchCharacteristic controls motor's on/off state
-BLECharCharacteristic switchCharacteristic =
-  BLECharCharacteristic("FF11", BLERead | BLEWrite);
-BLEDescriptor switchDescriptor = BLEDescriptor("2901", "Switch");
+## Components
+- Arduino 101
+- Half-size Breadboard
+- 6V DC Motor
+- PN2222 Transistor
+- 1N4001 Diode
 
-// speedCharacteristic controls the motor's speed
-BLECharCharacteristic speedCharacteristic =
-  BLECharCharacteristic("FF12", BLERead | BLEWrite);
-BLEDescriptor speedDescriptor = BLEDescriptor("2901", "Speed");
-```
+## Fritzing Diagram and Photos of Hardware
 
-## Schematic Diagram
+![untitled sketch 2_bb](https://cloud.githubusercontent.com/assets/9016615/22814413/5a8dcda6-ef21-11e6-881d-e2da64a873b3.png)
+
+![img_2881](https://cloud.githubusercontent.com/assets/9016615/22814537/6ab50bb2-ef22-11e6-9fb6-5d339dc0393e.JPG)
