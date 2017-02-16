@@ -21,6 +21,6 @@ The Bluetooth LE service is defined as `motorService` (UUID: 0xFFF1) with a on/o
 
 ## Fritzing Diagram and Photos of Hardware
 
-![untitled sketch 2_bb](https://cloud.githubusercontent.com/assets/9016615/22814413/5a8dcda6-ef21-11e6-881d-e2da64a873b3.png)
+![bluetooth motor fritzing diagram_bb](https://cloud.githubusercontent.com/assets/9016615/23041551/3506985a-f463-11e6-918d-e84c53eec40d.png)
 
 ![img_2881](https://cloud.githubusercontent.com/assets/9016615/22814537/6ab50bb2-ef22-11e6-9fb6-5d339dc0393e.JPG)
