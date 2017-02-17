@@ -20,13 +20,10 @@ The Bluetooth LE service is defined as `motorService` (UUID: 0xFFF1) with a on/o
 - 1N4001 Diode
 
 ## Fritzing Diagram and Photos of Hardware
-
-![bluetooth motor fritzing diagram_bb](https://cloud.githubusercontent.com/assets/9016615/23041551/3506985a-f463-11e6-918d-e84c53eec40d.png)
-
-![img_2881](https://cloud.githubusercontent.com/assets/9016615/22814537/6ab50bb2-ef22-11e6-9fb6-5d339dc0393e.JPG)
+<img src="https://cloud.githubusercontent.com/assets/9016615/23041551/3506985a-f463-11e6-918d-e84c53eec40d.png" width="500"4
+<img src="https://cloud.githubusercontent.com/assets/9016615/22814537/6ab50bb2-ef22-11e6-9fb6-5d339dc0393e.JPG" width="500">
 
 ## Phonegap Application and Video 
-
 <img src="https://cloud.githubusercontent.com/assets/9016615/23051423/e7d84306-f496-11e6-8329-8649d9495c74.PNG" width="300">
 <img src="https://cloud.githubusercontent.com/assets/9016615/23051424/e9efa9c2-f496-11e6-98bc-620164b5d630.PNG" width="300">
 
