@@ -27,7 +27,7 @@ The Bluetooth LE service is defined as `motorService` (UUID: 0xFFF1) with a on/o
 
 ## Phonegap Application and Video 
 
-![img_2910](https://cloud.githubusercontent.com/assets/9016615/23051423/e7d84306-f496-11e6-8329-8649d9495c74.PNG)
-![img_2909](https://cloud.githubusercontent.com/assets/9016615/23051424/e9efa9c2-f496-11e6-98bc-620164b5d630.PNG)
+![img_2910](https://cloud.githubusercontent.com/assets/9016615/23051423/e7d84306-f496-11e6-8329-8649d9495c74.PNG | width=100)
+![img_2909](https://cloud.githubusercontent.com/assets/9016615/23051424/e9efa9c2-f496-11e6-98bc-620164b5d630.PNG | width=100)
 
-![video](https://youtu.be/wcAuevRtikU)
+[Here](https://youtu.be/wcAuevRtikU) is a video demonstrating the application live with a (very) makeshift fan. :)
