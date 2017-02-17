@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- Content-Security-Policy allow *anything* (added policy to stop warnings) -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval'">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>BLE Motor</title>
+    </head>
+    <body>
+        <div>
+            <div id="mainPage">
+                <h2>Motors Near You</h2>
+                <ul id="deviceList"></ul>
+                <button id="refreshButton" class="refresh">Refresh</button>
+            </div>
+            <div id="detailPage">
+                <h2>Motor Connected</h2>
+                <button id = "onButton" class="btn green">On</button>
+                <button id = "offButton" class="btn red">Off</button>
+                <input type="range" min="0" max="255" value="255" id="speed" />
+                <button id = "disconnectButton" class="disconnect">Disconnect</button>
+            </div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/fastclick.js"></script>
+        <script type="text/javascript" src="js/disconnector.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

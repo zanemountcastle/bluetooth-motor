@@ -48,10 +48,10 @@ void loop() {
 void switchCharacteristicWritten(BLECentral& central, BLECharacteristic& characteristic) {
   if (switchCharacteristic.value()) {
     Serial.println(F("Motor on!"));
-    digitalWrite(MOTOR_PIN, HIGH);
+    analogWrite(MOTOR_PIN, 0xFF);
   } else {
     Serial.println(F("Motor off!"));
-    digitalWrite(MOTOR_PIN, LOW);
+    analogWrite(MOTOR_PIN, 0x00);
   }
 }
 
