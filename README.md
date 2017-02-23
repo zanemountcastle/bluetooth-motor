@@ -56,4 +56,4 @@ $ cd bleno-peripheral
 $ npm install
 $ node motor.js
 ```
-[Here](https://youtu.be/XQatSOo6-SU) is of the PhoneGap Bluetooth motor application controlling the computer as it acts as a Bluetooth Motor peripheral.
+[Here](https://youtu.be/XQatSOo6-SU) is a video of the PhoneGap application interacting with the computer as it acts as a Bluetooth Motor peripheral.
