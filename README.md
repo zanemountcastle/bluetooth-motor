@@ -23,7 +23,7 @@ The Bluetooth LE service is defined as `motorService` (UUID: 0xFFF1) with a on/o
 <img src="https://cloud.githubusercontent.com/assets/9016615/23041551/3506985a-f463-11e6-918d-e84c53eec40d.png" width="500">
 <img src="https://cloud.githubusercontent.com/assets/9016615/22814537/6ab50bb2-ef22-11e6-9fb6-5d339dc0393e.JPG" width="500">
 
-## PhoneGap Application and Video
+## PhoneGap Application
 
 PhoneGap allows for a more user friendly way to control the Bluetooth Motor peripheral. The application allows the user to turn the motor on and off and control the speed. To run the Phonegap application, in terminal enter the following,
 
@@ -38,7 +38,7 @@ Next, in the PhoneGap application, enter the IP address displayed in the termina
 
 [Here](https://youtu.be/wcAuevRtikU) is a video demonstrating the application live with a (very) makeshift fan. :)
 
-## Noble Central
+## Noble Central NodeJS Application
 
 Noble allows us to control a Bluetooth Motor peripheral using the terminal. To run the NodeJS application, 
 ```
@@ -48,7 +48,7 @@ $ node motor.js
 ```
 [Here](https://youtu.be/Z7i75wW5wWE) is a video of the NodeJS application interacting with the Bluetooth Motor peripheral.
 
-## Bleno Peripheral
+## Bleno Peripheral NodeJS Application
 
 Bleno allows the computer itself to act as a Bluetooth Motor peripheral. To run the NodeJS applicaiton,
 ```
