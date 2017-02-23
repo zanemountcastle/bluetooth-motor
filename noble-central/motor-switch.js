@@ -94,4 +94,3 @@ function onServicesAndCharacteristicsDiscovered(error, services, characteristics
   process.stdin.resume();
 
 }
-
