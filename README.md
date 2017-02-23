@@ -40,7 +40,9 @@ Next, in the PhoneGap application, enter the IP address displayed in the termina
 
 ## Noble Central NodeJS Application
 
-Noble allows us to control a Bluetooth Motor peripheral using the terminal. To run the NodeJS application, 
+Noble allows us to control a Bluetooth Motor peripheral using the terminal. To control the application, use keys `0-9` to control relative speed from fully off to fully on or `w` to turn on and `s` to turn off. 
+
+To run the NodeJS application, 
 ```
 $ cd noble-central
 $ npm install
