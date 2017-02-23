@@ -10,8 +10,8 @@ BLECharCharacteristic switchCharacteristic =
 BLEDescriptor switchDescriptor = BLEDescriptor("2901", "Switch");
 
 // speedCharacteristic controls the motor's speed
-BLEIntCharacteristic speedCharacteristic =
-  BLEIntCharacteristic("FFF3", BLERead | BLEWrite);
+BLEUnsignedIntCharacteristic speedCharacteristic =
+  BLEUnsignedIntCharacteristic("FFF3", BLERead | BLEWrite);
 BLEDescriptor speedDescriptor = BLEDescriptor("2901", "Speed");
 
 void setup() {
