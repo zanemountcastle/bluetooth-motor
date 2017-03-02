@@ -62,7 +62,12 @@ $ node motor.js
 
 ## Electron Central
 
-The Electron application is a desktop-based platform for controlling the motor. To run the application,
+The Electron application is a desktop-based platform for controlling the motor. 
+
+<img height="400" alt="screen shot 2017-03-02 at 2 26 21 pm" src="https://cloud.githubusercontent.com/assets/9016615/23523443/ef6c2c68-ff54-11e6-8ca4-95f230470e5d.png">
+<img height="400" alt="screen shot 2017-03-02 at 2 26 34 pm" src="https://cloud.githubusercontent.com/assets/9016615/23523449/f18e1218-ff54-11e6-926c-f0ec2f810e42.png">
+
+To run the application,
 
 ```
 $ cd electron-central
@@ -75,9 +80,11 @@ $ npm start
 ## Web Bluetooth
 
 Using Google Chrome, this application allows the user to control the Bluetooth motor from an internet browser.
+
 <img width="400" alt="screen shot 2017-03-02 at 2 26 21 pm" src="https://cloud.githubusercontent.com/assets/9016615/23523331/70c5b7b2-ff54-11e6-87f5-00da93600bfa.png">
 <img width="400" alt="screen shot 2017-03-02 at 2 26 34 pm" src="https://cloud.githubusercontent.com/assets/9016615/23523329/70c3919e-ff54-11e6-8f54-8bd442641bc7.png">
 
+To run the application,
 
 ```
 $ cd web-bluetooth-central
