@@ -77,7 +77,6 @@ $ npm start
 Using Google Chrome, this application allows the user to control the Bluetooth motor from an internet browser.
 <img width="400" alt="screen shot 2017-03-02 at 2 26 21 pm" src="https://cloud.githubusercontent.com/assets/9016615/23523331/70c5b7b2-ff54-11e6-87f5-00da93600bfa.png">
 <img width="400" alt="screen shot 2017-03-02 at 2 26 34 pm" src="https://cloud.githubusercontent.com/assets/9016615/23523329/70c3919e-ff54-11e6-8f54-8bd442641bc7.png">
-<img width="400" alt="screen shot 2017-03-02 at 2 25 33 pm" src="https://cloud.githubusercontent.com/assets/9016615/23523330/70c4d0ea-ff54-11e6-82be-c6ab3eb48531.png">
 
 
 ```
