@@ -71,18 +71,18 @@ To run the application,
 
 ```
 $ cd electron-central
-$ npm install               # Using Node version 6.9.5
+$ npm install  # Using Node version 6.9.5
 $ npm run electron-rebuild
 $ npm start
 ```
-[Here]() is a video of the Electron application working.
+[Here](https://youtu.be/drpyYAyqIlo) is a video of the Electron application working.
 
 ## Web Bluetooth
 
 Using Google Chrome, this application allows the user to control the Bluetooth motor from an internet browser.
 
-<img width="400" alt="screen shot 2017-03-02 at 2 26 21 pm" src="https://cloud.githubusercontent.com/assets/9016615/23523331/70c5b7b2-ff54-11e6-87f5-00da93600bfa.png">
-<img width="400" alt="screen shot 2017-03-02 at 2 26 34 pm" src="https://cloud.githubusercontent.com/assets/9016615/23523329/70c3919e-ff54-11e6-8f54-8bd442641bc7.png">
+<img width="400" alt="screen shot 2017-03-02 at 2 36 04 pm" src="https://cloud.githubusercontent.com/assets/9016615/23523618/a806d85e-ff55-11e6-94ca-2f19d6f108b7.png">
+<img width="400" alt="screen shot 2017-03-02 at 2 35 48 pm" src="https://cloud.githubusercontent.com/assets/9016615/23523619/a8077804-ff55-11e6-9014-ca0591f2f104.png">
 
 To run the application,
 
@@ -91,5 +91,5 @@ $ cd web-bluetooth-central
 $ python -m SimpleHTTPServer
 # Navigate to localhost:8000 in Google Chrome
 ```
-[Here]() is a video of the Web Bluetooth application working.
+[Here](https://youtu.be/WGIyyeC4KaQ) is a video of the Web Bluetooth application working.
 
