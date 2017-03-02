@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Bluetooth LED</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <div id="mainPage">
+      <h2>Motors Near You</h2>
+      <ul id="deviceList"></ul>
+      <button id="refreshButton" class="refresh">Refresh</button>
+    </div>
+    <div id="detailPage">
+      <div>
+        <button id = "onButton" class="btn green">On</button>
+        <button id = "offButton" class="btn red">Off</button>
+        <input type="range" min="0" max="255" value="255" id="speed" />
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -19,8 +19,8 @@ void setup() {
 
   pinMode(MOTOR_PIN, OUTPUT);
 
-  blePeripheral.setLocalName("Bluetooth Motor");
-  blePeripheral.setDeviceName("Bluetooth Motor");
+  blePeripheral.setLocalName("Zane's Bluetooth Motor");
+  blePeripheral.setDeviceName("Zane's Bluetooth Motor");
   blePeripheral.setAdvertisedServiceUuid(motorService.uuid());
 
   blePeripheral.addAttribute(motorService);

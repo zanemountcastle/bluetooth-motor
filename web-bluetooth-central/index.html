@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1,
+         user-scalable=no, width=device-width">
+         <title>Bluetooth LED</title>
+    </head>
+
+    <body>
+        <div>
+            <button id="startButton" class="startButton">Connect</button>
+            <br/>
+        </div>
+
+        <div id="controlsDiv">
+                <section title=".slideThree">
+                <!-- .slideThree -->
+                    <div class="slideThree">
+                      <input type="checkbox" id="powerswitch" name="check" checked />
+                      <label for="powerswitch"></label>
+                    </div>
+                <!-- end .slideThree -->
+                </section>
+            <br/>
+
+            <label for="speed"></label><br/>
+                <input type="range" id="speed" min="0" value="255" max="255" step="5" />
+            <br/>
+
+            <button id="disconnectButton" class="disconnect">Disconnect</button>
+        </div>
+
+        <div id="output" class="output">
+            <div id="content"></div>
+            <div id="status"></div>
+            <pre id="log"></pre>
+        </div>
+
+        <script type="text/javascript" src="chromeSamples.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
